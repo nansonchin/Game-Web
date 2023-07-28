@@ -1,0 +1,8 @@
+.triangle-back{
+    position: absolute;
+    top:2%;
+    color: grey;
+    font-size: 30px;
+    left: 2%;
+    cursor: pointer;
+}

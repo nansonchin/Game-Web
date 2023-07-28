@@ -1,0 +1,119 @@
+.top-twitch-img{
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;  
+    object-fit: fill;
+    filter: brightness(60%);
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+.top-twitch-img:hover{
+    filter: brightness(100%);
+
+}
+
+.top-twitch-img-side1:hover{
+    filter: brightness(100%);
+
+}
+
+.top-twitch-img-side2:hover{
+    filter: brightness(100%);
+
+}
+
+.top-height-twitch{
+    border: 2px solid red;
+    /* height:300px; */
+
+}
+
+.top-twitch-img-side1{
+    max-width: 100%;
+    width: 100vw;  
+    height: 50vh;
+    object-fit: cover;
+    filter: brightness(60%);
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+.top-twitch-img-side2{
+    max-width: 100%;
+    width: 100vw;  
+    height: 50vh;
+    object-fit: cover;
+    filter: brightness(60%);
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+.twitch-category{
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.twitch-category:hover{
+    background-color: #9146ff;
+    text-align: center;
+}
+
+.twitch-search{
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.twitch-search:hover{
+    background-color: #9146ff;
+    text-align: center;
+}
+
+.twitch-wrapper{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #9146ff;
+}
+
+.twitch-active{
+    text-align: center;
+    background-color: #9146ff;
+    color: #fff;
+}
+
+.t-category-list{
+    color: #fff;
+    transition: .2s;
+    cursor:pointer
+}
+
+.t-category-list:hover{
+    border-bottom: 2px solid #9146ff;
+}
+
+.el-pager li{
+    background: transparent!important;
+}
+
+.el-pager li.is-active{
+    color: rgb(241, 6, 241)!important;
+}
+.number{
+    color: rgb(223, 223, 223)!important;
+}
+
+.el-pagination .btn-next, .el-pagination .btn-prev{
+    background: transparent!important;
+
+}
+
+.el-icon{
+    color: rgb(223, 223, 223)!important;
+}

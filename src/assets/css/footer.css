@@ -1,0 +1,64 @@
+
+.f-img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.footer-box{
+    padding:50px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-color {
+    color: #fff;
+}
+
+.f-subtext {
+    font-size: 12px;
+    /* border: 2px solid red; */
+}
+
+.f-text{
+    text-align: justify;
+}
+
+.f-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.f-container{
+    position: relative;
+}
+
+.f-container h4:before{
+    background-color: #8d8596;
+    width: 20%;
+    height: 4px;
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -5px;
+}
+
+.f-link{
+    cursor: pointer;
+}
+
+.f-link:hover{
+    filter: brightness(70%);
+}
+
+.f-Sec-size{
+    font-size: 15px;
+}
+
+.f-icon{
+    cursor: pointer;
+    font-size: 40px;
+}
+.f-icon:hover{
+    filter: brightness(50%);
+}

@@ -1,0 +1,84 @@
+.latest-image{
+    max-width: 100%;
+    height:200px;
+    -webkit-transition: .2s linear;
+    transition: 0.2s linear;
+}
+
+.latest-image:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.latest-side-banner{
+    max-width: 100%;
+    transition: .2s;
+}
+
+.latest-side-image{
+    width: 80%;
+    height:50px;
+    object-fit: cover;
+}
+
+.latest-side-title{
+    background: rgb(88, 86, 86);
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding:2%;
+}
+
+.latest-side-game-title{
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.banner-container{
+    border:2px solid red;
+    height:400px;
+}
+
+.banner-wrapper{
+    position: relative;
+    cursor: pointer;
+}
+
+.side-banner-text{
+    display: flex;
+    color: rgb(243, 222, 183);
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    left:0;
+    height:1px;
+    background-image: linear-gradient(to top,#000,rgb(62, 61, 61),transparent);
+    overflow: hidden;
+    transition: .2s;
+}
+.latest-side-banner:hover {
+    filter: brightness(70%);
+}
+
+.banner-wrapper:hover .side-banner-text{
+    height:50px;
+}
+
+.side-recent-game-banner{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.game-board-text{
+    font-weight: 700;
+    color: #000;
+}
+
+.game {
+    background:rgba(103, 103, 103, 0.683);
+    color: #fff;
+}
+
+.recent-game , .top-game{
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.land-mmorpg-first{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.land-mmorpg-big{
+    max-width: 100%;
+    height:450px;
+    transition:.2s;
+    object-fit: cover;
+}
+
+.land-mmorpg-big:hover{
+    filter: brightness(70%);
+    cursor: pointer;
+}
+
+.land-mmorpg-small{
+    max-width: 100%;
+}
+
+.land-space{
+    padding:5px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    transition: .2s;
+}
+
+.land-space:hover{
+    filter: brightness(70%);
+    cursor: pointer;
+}
+
+.land-content-detail{
+    color: white;
+    position: absolute;
+    bottom:0;
+    right: 5%;
+}
+
+.land-2nd{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: .2s;
+}
+
+.land-mmorpg-more{
+    text-align: end;
+}

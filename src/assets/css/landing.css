@@ -1,0 +1,48 @@
+.landing-wrapper{
+    width:100%;
+    position: relative;
+}
+
+.landing-image{
+    width: 100%;
+    height:90vh;
+    z-index: -2;
+    background: black;
+    filter: brightness(80%);
+    object-fit: cover;
+    background-position: center;
+    background-size: contain;
+}
+
+.landing-text{
+    position: absolute;
+    width: 30%;
+    bottom:12%;
+    right:5%;
+    z-index: 30;
+}
+
+
+.landing-image:hover{
+    filter: brightness(50%);
+}
+
+.landing-text p{
+    margin:0;
+    word-wrap: break-word;
+}
+
+.landing-title{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.landing-subtext{
+    color:#fff;
+    font-weight: 500;
+}
+.swiper-button-next{
+    z-index: 30;
+}

@@ -1,0 +1,10 @@
+.rq-reset-acc{
+    color:grey;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.rq-reset-acc:hover{
+    text-decoration: underline;
+    color: black;
+}

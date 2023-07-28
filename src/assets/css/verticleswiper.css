@@ -1,0 +1,29 @@
+.v-swiper{
+    height: 150px;
+}
+
+.v-swiper-banner-img{
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.v-swiper-banner-img:hover{
+    filter: brightness(60%);
+}
+
+.category-wrapper-side{
+    border: 2px solid rgb(194, 194, 194);
+}
+
+.category-side-title{
+    font-weight: bold;
+}
+
+.side-category-top-img{
+    max-width: 100%;
+    height: 80px;
+    object-fit: cover;
+}

@@ -1,0 +1,41 @@
+.twitch-container{
+    position: relative;
+}
+
+.twitch-image{
+    max-width: 100%;
+    -webkit-transition: .2s linear;
+    transition: 0.2s linear;
+}
+
+.twitch-title{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    color: #fff;
+    height:1px;
+    transition: .3s;
+}
+
+.twitch-detail{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+
+.twitch-container:hover .twitch-title{
+    height:65px;
+}
+
+.twitch-container:hover .twitch-image{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    filter: brightness(55%);
+}
+
+
+.category-twitch{
+    margin-left: 50px;
+}

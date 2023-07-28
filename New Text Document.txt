@@ -1,0 +1,7 @@
+status , success, error and data
+
+editor.config
+Take access token and store inside local storage
+
+
+set*key name and value " 2 name parameters 

@@ -1,0 +1,170 @@
+{
+    "message":{
+        "header":{
+            "headTitle":"HC's Analysis",
+            "headSelection1":"HOME",
+            "headSelection2":"MMORPG NEWS",
+            "headSelection3":"FPS NEWS",
+            "headSelection4":"TWITCH NEWS",
+            "headSelection5":"LATEST NEWS",
+            "headSelection6":"FIND US",
+            "headSelection7":"CONTACT US",
+            "headerRegisterNLogin":"Register/Login"
+        },
+        "landing":{
+            "landingTitle":"Game",
+            "landingDesc":"Pellentesque habitant morbiPellentesque habitant morbi  Pellentesque habitant morbi  Pellentesque habitant morbi  tristique senectus et netus et malesuada fames ac turpis egestas."
+        },
+        "landMMORPG":{
+            "lM":{
+                "lMtitle1":"MMORPG",
+                "lMtitle2":"Game"
+            },
+            "lMfirst":{
+                "lMFirstTitle":"Elsword",
+                "lMFirstDesc1":"Elesis's New Job",
+                "lMFirstDesc2":"4th Path > ADRESTIA"
+            },
+            "lMSide1":{
+                "lMTitle":"Genshin",
+                "lMDesc1":" Step into a Vast Magical World of Adventure",
+                "lMDesc2":"See More"
+            },  
+            "lMSide2":{
+                "lMTitle":"Genshin",
+                "lMDesc1":" Step into a Vast Magical World of Adventure",
+                "lMDesc2":"See More"
+            },
+            "lMSide3":{
+                "lMTitle":"Genshin",
+                "lMDesc1":" Step into a Vast Magical World of Adventure",
+                "lMDesc2":"See More"
+            },
+            "lmMore":"See More"
+        },
+        "fpsGame":{
+            "fpsGameTitle1":"FPS",
+            "fpsGameTitle2":"GAME",
+            "fpsGame1":{
+                "fpsGameTitle":"Apex Legend",
+                "fpsCategory":"category"
+            },
+            "fpsGame2":{
+                "fpsGameTitle":"Call of Duty II",
+                "fpsCategory":"category"
+            },
+            "fpsGame3":{
+                "fpsGameTitle":"Mission Against Terror",
+                "fpsCategory":"category"
+            },
+            "fpsGame4":{
+                "fpsGameTitle":"Over Watch 2",
+                "fpsCategory":"category"
+            },
+            "fpsGame5":{
+                "fpsGameTitle":"Uber Strike",
+                "fpsCategory":"category"
+            },
+            "fpsGame6":{
+                "fpsGameTitle":"Valorant",
+                "fpsCategory":"category"
+            },
+            "fpsMore":"See More"
+        },
+        "landTwitch":{
+            "landTitle1":"Twitch",
+            "landTitle2":"GAME",
+            "lT1":{
+                "lTTitle":"Game Name",
+                "lTStream":"Streamer Name",
+                "lTCategory":"Category"
+            },
+            "lT2":{
+                "lTTitle":"Game Name",
+                "lTStream":"Streamer Name",
+                "lTCategory":"Category"
+            },
+            "lT3":{
+                "lTTitle":"Game Name",
+                "lTStream":"Streamer Name",
+                "lTCategory":"Category"
+            },
+            "lT4":{
+                "lTTitle":"Game Name",
+                "lTStream":"Streamer Name",
+                "lTCategory":"Category"
+            },
+            "lT5":{
+                "lTTitle":"Game Name",
+                "lTStream":"Streamer Name",
+                "lTCategory":"Category"
+            },
+            "lT6":{
+                "lTTitle":"Game Name",
+                "lTStream":"Streamer Name",
+                "lTCategory":"Category"
+            },
+            "lT7":{
+                "lTTitle":"Game Name",
+                "lTStream":"Streamer Name",
+                "lTCategory":"Category"
+            },
+            "lT8":{
+                "lTTitle":"Game Name",
+                "lTStream":"Streamer Name",
+                "lTCategory":"Category"
+            },
+            "lT9":{
+                "lTTitle":"Game Name",
+                "lTStream":"Streamer Name",
+                "lTCategory":"Category"
+            },
+            "lTMore":"See More"
+        },
+        "landLatestNews":{
+            "landRight":{
+                "landTitle1":"Latest",
+                "landTitle2":"Game",
+                "landR1":{
+                    "landCat":"Category",
+                    "landTag1":"Tag",
+                    "landTag2":"Tag",
+                    "landTag3":"Tag",
+                    "landTitle":"Final Fantasy: 5 Reasons The Buster Sword Is Best & 5 Reasons Gunblades Are",
+                    "landDesc":"Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem Donec vehicula luctus nunc in laoreet Aliquam erat volutpat....",
+                    "landBy":"By:"
+                },
+                "landR2":{
+                    "landCat":"Category",
+                    "landTag1":"Tag",
+                    "landTag2":"Tag",
+                    "landTag3":"Tag",
+                    "landTitle":"Final Fantasy 16: Lorem AHs Phhsieum asdrk lasii suiume sadk",
+                    "landDesc":"Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem Donec vehicula luctus nunc in laoreet Aliquam erat volutpat....",
+                    "landBy":"By:"
+                },
+                "landR3":{
+                    "landCat":"Category",
+                    "landTag1":"Tag",
+                    "landTag2":"Tag",
+                    "landTag3":"Tag",
+                    "landTitle":"Final Fantasy: 5 Reasons The Buster Sword Is Best & 5 Reasons Gunblades Are",
+                    "landDesc":"Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem Donec vehicula luctus nunc in laoreet Aliquam erat volutpat....",
+                    "landBy":"By:"
+                },
+                "landR4":{
+                    "landCat":"Category",
+                    "landTag1":"Tag",
+                    "landTag2":"Tag",
+                    "landTag3":"Tag",
+                    "landTitle":"Final Fantasy: 5 Reasons The Buster Sword Is Best & 5 Reasons Gunblades Are",
+                    "landDesc":"Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem Donec vehicula luctus nunc in laoreet Aliquam erat volutpat....",
+                    "landBy":"By:"
+                }
+               
+            }
+        }
+       
+
+    }
+}

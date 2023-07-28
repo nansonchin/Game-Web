@@ -1,0 +1,35 @@
+{
+  "name": "project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/sharp-solid-svg-icons": "^6.2.0",
+    "@img-comparison-slider/vue": "^7.7.0",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.2",
+    "bootstrap-vue-3": "^0.4.8",
+    "element-plus": "^2.2.21",
+    "swiper": "^8.4.4",
+    "vue": "^3.2.41",
+    "vue-carousel-3d": "^1.0.1",
+    "vue-compare-image": "^0.2.0",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.1.6",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-twentytwenty": "^1.0.0-1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.3"
+  }
+}

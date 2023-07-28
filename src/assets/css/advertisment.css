@@ -1,0 +1,51 @@
+.ad-container{
+    position: relative;
+    background-color: #3e405e;
+    padding:80px;
+    border-radius: 25px;
+    z-index: -4;
+}
+
+.ad-img{
+    filter: opacity(50%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -3;
+}
+
+.ad-logo-name{
+    color: #fff;
+}
+
+.ad-logo-image{
+    width: 50px;
+    border-radius: 50px;
+    z-index: -3;
+}
+
+.ad-logo-name{
+    display: flex;
+    padding-left: 5%;
+    align-items: center;
+}
+
+.ad-logo-subtext{
+    padding-top: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    z-index: 3;
+}
+
+.find-us-btn{
+    background-color: rgb(224, 224, 19);    
+    font-weight: 800;
+    padding:5px 0px;
+    color: rgb(152, 72, 72);
+    text-align: center;
+    border-radius: 25px;
+    z-index: 31;
+    cursor: pointer;
+}

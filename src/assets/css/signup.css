@@ -1,0 +1,190 @@
+.glass-signup {
+    background: rgba(255, 255, 255, 0.12);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    position: relative;
+}
+
+.sign-up-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.sign-up-text {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.hc-sign-up-img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+.sign-up-height1-padding {
+    padding: 10% 0%;
+    background: rgba(255, 255, 255, 0.2);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.sign-up-height2-padding {
+    background-color: white;
+}
+
+.btn-submit-signup-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.btn-signup-submit {
+    padding: 3%;
+    font-size: 20px;
+    color: white;
+    background: #ff2851;
+}
+
+.sign-up-bg-animated {
+    height: 100vh;
+    background-image: url("@/assets/image/SignIn/circle-dot.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.center-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-up-icon:hover {
+    filter: brightness(70%);
+}
+
+
+
+.signup-title-container {
+    font-size: 50px;
+    text-align: center;
+}
+
+.sign-up-right-side-container {
+    margin: 5%;
+}
+
+
+.text {
+    color: white;
+    position: relative;
+    font-size: 50px;
+    font-weight: 900;
+    box-shadow: #ff2851 0 -5px 0 inset;
+    transform: skewX(-10deg);
+    z-index: 100;
+    background: #ff2851;
+}
+
+.text::before {
+    content: attr(data-text);
+    background: transparent;
+    position: absolute;
+    text-shadow: 4px 0 pink;
+    right: 50%;
+    clip-path: inset(0 0 0 0);
+    animation: ani2 2s infinite linear alternate-reverse;
+}
+
+.text::after {
+    content: attr(data-text);
+    background: transparent;
+    position: absolute;
+    text-shadow: -4px 0 skyblue;
+    left: 50%;
+    clip-path: inset(0 0 0 0);
+    animation: ani1 2s infinite linear alternate-reverse;
+}
+
+.forgot-acc-container {
+    word-spacing: 5px;
+    /* margin: 5% 0%; */
+    text-align: center;
+}
+
+.forgot-click-btn {
+    font-size: 20px;
+    color: #ff2851;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.forgot-click-btn:hover {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.container-register-signup {
+    writing-mode: vertical-rl;
+    /* text-orientation: upright; */
+    font-size: 20px;
+    font-weight:700;
+}
+.containerofreandsign{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-up-height3-padding{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.sign-picker-color{
+    transition:.2s;
+    height: 50%;
+    cursor: pointer;
+}
+
+.sign-picker-color:hover{
+    width: auto;
+    background-color: #ff2851;
+    color:white;
+}
+
+.signup-selection-login-word{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.login-with-icon{
+    width:6%;
+    height: 6%;
+    cursor: pointer;
+    transition: .2s;
+    margin: 0% 3%;
+}
+
+.login-with-icon:hover{
+    filter: brightness(70%);
+}
+
+.login-icon-container{
+    display: flex;
+    
+}

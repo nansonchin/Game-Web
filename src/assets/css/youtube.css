@@ -1,0 +1,124 @@
+.youtube-img{
+    max-width: 100%;
+    object-fit: cover;
+    transition: .2s;
+    padding: 5%;
+}
+
+.youtube-gameName{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.youtube-btn{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.youtube-img-container{
+    position: relative;
+    cursor: pointer;
+
+}
+
+.youtube-btn-container{
+    position: relative;
+}
+
+.youtube-btn-wrapper{
+    width: 100%;
+    position: absolute;
+    display: none;
+    bottom: 0;
+    transition: .2s;
+}
+
+.youtube-img-container:hover .youtube-img{
+    filter: brightness(70%);
+}
+
+.youtube-img-container:hover .youtube-btn-wrapper{
+    display: flex;
+}
+
+.loadMore{
+    position: relative;
+}
+
+.no-more::before{
+content: '';
+border-bottom: 2px solid #fff;
+}
+
+.no-more{
+    color: rgb(199, 199, 199);
+    text-align: center;
+}
+
+.search-you-filter{
+    /* clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);     */
+    padding: 2% 5%;
+    margin-top: 10%;
+    color: white;
+    background-color: grey;
+    transition: .2s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 50%;
+}
+
+.search-you-filter:hover{
+    background-color: #ff2851;
+    color:white;
+}
+
+.youtube-left-side-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+.you-big-left-container{
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto;
+}
+
+.something-like-youtube{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.youtube-thing-like-container{
+    clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+    background-color: #ff2851;
+}
+
+.youtube-sidebar-right-2nd-img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.youtube-sidebar-right-2nd-title{
+    text-align: start;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+.youtube-sidebar-right-2nd-text{
+    font-size: 15px;
+    text-align: start;
+    color: rgb(203, 203, 203);
+    margin: 0;
+}

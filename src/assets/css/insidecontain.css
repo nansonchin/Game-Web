@@ -1,0 +1,351 @@
+.inside-wrapper{
+    position: relative;
+}
+
+.inside-image-container{
+    background: #000;
+    display: block;
+    min-height: 33px;
+    box-shadow: #ff2851 0 -1px 0 inset;
+    overflow: visible;
+    position: relative;
+}
+
+.inside-image{
+    height: 550px;
+    width: 100%;
+    object-fit: center;
+    transition: all .5s;
+}
+
+.inside-btn{
+    position: absolute;
+    color: #fff;
+    font-weight:600;
+    text-align: center;
+    bottom:0;
+    right:5%    ;
+    padding:2px 20px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.inside-btn:after{
+    left: 3px;
+    right: 3px;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    transform: skewX(-10deg);
+    z-index: 10000;
+    background: #ff2851;
+    z-index: -2;
+}
+
+.c-category{
+   background-color: rgb(91, 91, 91);
+   font-size: 16px;
+   font-weight: 500;
+   color:#fff;
+   text-align: center;
+   transition: .2s;
+   cursor: pointer;
+}
+
+.c-tag{
+    background-color: #ff2851;
+    font-size: 14px;
+    font-weight: 500;
+    color:#fff;
+    text-align: center;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.c-tag:hover{
+    transform: rotate(-5deg);
+}
+
+.c-category:hover{
+    transform: rotate(-5deg);
+}
+
+.inside-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.inside-slider-image{
+    max-width: 100%;
+}
+.rating-wrapper{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.bar-wrapper{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.form-container{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.center-bar{
+    padding-top:8px;
+}
+
+.bar{
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    border: 1px solid #ff2851;
+    background: #fff;
+    display: block;
+}
+
+.data-text{
+    color:#aaa;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.white-color{
+    color: white;
+}
+.bar s{
+    display: block; 
+    float: left;
+    height: 7px;
+    background: #ff2851;
+}
+
+.circle-wrapper{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle{
+    border:5px solid #ff2851;
+    text-align: center;
+    width: 90%;
+    height: 60%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inside-big-num{
+    font-size: 30px;
+}
+
+.inside-latest{
+    color:#fff;
+    font-weight: 700;
+    padding:10px 20px;
+    background-color:#ff2851 ;
+}
+
+.latest-game-list-wrapper{
+    font-weight: 700;
+    padding:10px 20px;
+}
+
+.latest-game-list{
+    margin:0;
+    padding:20px 0px;
+    cursor: pointer;
+    transition:.3s;
+}
+
+.latest-game-list:not(:last-child){
+    border-bottom:2px solid #000;
+}
+
+.latest-game-list:hover{
+    padding:10px 10px;
+    background-color: rgba(0, 0, 0, 0.306);
+    color: #fff;
+}
+
+.inside-system-container{
+    /* margin: 0 0 50px 13px; */
+    display: block;
+    min-height: 33px;
+    box-shadow: #ff2851 0 -1px 0 inset;
+    overflow: visible;
+    position: relative;
+}
+
+.inside-system:hover{
+    background-color:#ff2851;
+    color:#fff;
+}
+
+.inside-system {
+    background-color:#fff;
+    border:2px solid #ff2851;
+    /* width: 50%; */
+    padding:10px;
+    text-align: center;
+    font-size: 20px;
+    clip-path: polygon(6% 0, 100% 0%, 94% 100%, 0% 100%);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.inside-related-title {
+    background-color:#ff2851;
+    border:2px solid #ff2851;
+    color: #fff;
+    /* width: 50%; */
+    padding:10px;
+    text-align: center;
+    font-size: 20px;
+    clip-path: polygon(6% 0, 100% 0%, 94% 100%, 0% 100%);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.insideactive{
+    background-color:#ff2851;
+    color:#fff;
+}
+
+.minimun-system{
+    transition: .2s;
+}
+
+.inside-system-detail-wrapper{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;border: 1px solid #aaa;
+    padding:0px 30px;
+}
+
+.recommend-system{
+    transition:.2s;
+}
+
+.minimun-system:hover{
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding:0px 30px;
+}
+
+.recommend-system:hover{
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding:0px 30px;
+}
+
+.system-require-text{
+    font-weight: 600;
+}
+
+.inside-system-recommend,.inside-system-minimun{
+    font-weight: 700;
+}
+
+.game-detail{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.game-detail h6{
+    font-weight: 400;
+}
+
+.btn-left-image{
+    position: absolute;
+    top: 56%;
+    left: 44%;
+    transform: translate(-50%, -50%)
+}
+
+.btn-left-fill{
+    position: absolute;
+    top: 56%;
+    left: 44%;
+    transform: translate(-50%, -50%)
+}
+
+.btn-play-image{
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    filter: brightness(80%);
+    transition:  .2s;
+    transform: translate(-50%, -50%)
+
+}
+
+.btn-right-image{
+    position: absolute;
+    top: 52%;
+    right: 42%;
+    transform: translate(-50%, -50%)
+}
+
+.btn-right-fill{
+    position: absolute;
+    top: 52%;
+    right: 42%;
+    transform: translate(-50%, -50%)
+}
+
+.btn-play{
+    cursor:pointer;
+    transition:  .4s;
+}
+
+.btn-play:hover .btn-play-image{
+    transform: translate(-50%, -50%) scale(1.2) rotate(360deg);
+    filter: brightness(100%);
+}
+
+.inside-related-game{
+    max-width: 110%;
+    height: 180px;
+    transition: .2s;
+}
+
+.inside-related-container{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inside-related-name{
+    position: absolute;
+    bottom: -10px;
+    color: #fff;
+    background-image: linear-gradient(to top,#000,transparent);
+    width: 110%;
+    height: 1px;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.inside-related-container:hover .inside-related-game{
+    filter: brightness(70%);
+}
+
+.inside-related-container:hover .inside-related-name{
+    height:50px;  
+}
+
+.inside-system-image-logo{
+    width: 30px;
+    padding-right:10px;
+}

@@ -1,0 +1,12 @@
+.land-video-image{
+    max-width: 100%;
+    height:200px;
+    filter: brightness(70%);
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+.land-video-image:hover{
+    filter: brightness(110%);
+}

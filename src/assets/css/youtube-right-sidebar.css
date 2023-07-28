@@ -1,0 +1,34 @@
+.youtube-right-sidebar-container{
+    position: relative;
+    transition: .2s;
+    height: 40vh;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+
+.youtube-right-sidebar-text-container{
+    position: absolute;
+    height: 0px;
+    bottom: 0%;  
+    overflow-y:hidden;
+}
+
+.youtube-right-sidebar-container:hover .youtube-right-sidebar-text-container{
+    height: 30px;
+    padding: 0 5%;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff2851;
+}
+
+.youtube-right-sidebar-img{
+    max-width: 120%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.youtube-right-sidebar-text{
+    color: white;
+    margin: 0!important;
+}

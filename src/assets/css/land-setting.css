@@ -1,0 +1,49 @@
+.land-new-bigtitle{
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.land-width{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.land-mmorpg-paragraph{
+    font-weight: 350;
+}
+
+.land--title{
+    margin: 0;
+    text-align: center;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #000;
+    /* margin-top: 1px; */
+    position: relative;
+    /* background-attachment: scroll; */
+    background-image: url("@/assets/image/Land-mmorpg/divider.png");
+    background-repeat: repeat-x;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    padding:50px 0px;
+}
+
+/* land-mmorpg */
+
+
+.land-words:hover{
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+/* land - see more */
+.land--more{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+
+.land--more-text:hover{
+    text-decoration: underline;
+}

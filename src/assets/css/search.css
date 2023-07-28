@@ -1,0 +1,20 @@
+.search-input{
+    padding:50px;
+    display: flex;
+    justify-content: center;
+}
+
+.el-input__inner{
+    width: 100%;
+}
+
+.search-logo{
+    width: 30px;
+}
+
+.header-search-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
